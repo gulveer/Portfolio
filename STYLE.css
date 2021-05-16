@@ -1,0 +1,12 @@
+h1 {color: blue; border:blue; text-align:center; margin-left: 30px;}
+.header{background-color: aqua; display:flex; justify-content: space-between; border: solid;}
+.header a{margin-top: 10px;}
+.des{background-color: rgb(0, 0, 0); text-align: center;}
+.grid{display:flex; flex-wrap: wrap; justify-content: space-evenly; border: solid aqua;}
+.item{position:relative;}
+.item p{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); opacity: 0;}
+.item:hover p{opacity: 1; }
+.item:hover img{opacity: 0.33;}
+.icons{display: flex; justify-content: flex-end;}
+a:link{color: white;}
+a:visited{color: black;}
